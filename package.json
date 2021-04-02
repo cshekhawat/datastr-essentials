@@ -1,0 +1,20 @@
+{
+  "name": "javascript-essentials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js",
+    "merge-sort": "node app.js sort --inputdata=20 10 5 21 12 13 2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.0",
+    "yargs": "^16.2.0"
+  }
+}
